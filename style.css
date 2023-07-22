@@ -40,11 +40,11 @@
     margin: 20px 30px;
 }
 
-li:nth-child(2){
+.full-page .second-top-of-page li:nth-child(2){
     font-weight: bold;
 }
 
-li:nth-child(5){
+.full-page .second-top-of-page li:nth-child(5){
     margin-inline-start: auto;
     margin-right: 40px;
     color: #4c4cdd;
@@ -313,4 +313,50 @@ li:nth-child(5){
 .tenth-part .tenth-part-2 img:nth-child(2){
     max-height: 100px;
     max-width: 100px;
+}
+
+.tenth-part .tenth-part-2 input{
+    margin-left: 250px;
+    border-radius: 10px;
+    max-height: 40px;
+}
+
+.tenth-part hr{
+    margin-right: 120px;
+    margin-top: 50px;
+   
+    
+}
+
+.footer-list{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 600px;
+    
+}
+
+.footer-list li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.footer-list h2{
+    margin-top: 30px;
+}
+
+.last-line{ 
+    display: flex;
+}
+
+.last-line li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.last-line img{
+    margin-left: 500px;
 }
